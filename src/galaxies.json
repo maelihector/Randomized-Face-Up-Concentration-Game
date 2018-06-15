@@ -49,6 +49,24 @@
   },
   {
     "id": 9,
+    "name": "NASA Hubble Sees Sparring Antennae Galaxies",
+    "image":
+      "https://www.nasa.gov/sites/default/files/potw1345a.jpg"
+  },
+  {
+    "id": 10,
+    "name": "What's Old is New in the Large Magellanic Cloud",
+    "image":
+      "https://www.nasa.gov/sites/default/files/images/159427main_image_feature_666_ys_full.jpg"
+  },
+  {
+    "id": 11,
+    "name": "A Star-Formation Laboratory",
+    "image":
+      "https://www.nasa.gov/sites/default/files/images/544961main_hubble_may12_full_full.jpg"
+  },
+  {
+    "id": 12,
     "name": "Spiral Galaxy M51",
     "image":
       "https://www.nasa.gov/sites/default/files/m51.jpg"
