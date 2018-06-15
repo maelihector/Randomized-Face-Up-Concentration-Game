@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Chandra Captures Galaxy Sparkling in X-rays",
+    "image":
+      "https://www.nasa.gov/sites/default/files/m51_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Hubble Shears a 'Woolly' Galaxy",
+    "image":
+      "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_friday_09252015.jpg"
+  },
+  {
+    "id": 3,
+    "name": "The Whirlpool Galaxy",
+    "image":
+      "https://www.nasa.gov/sites/default/files/images/729779main_hubble_spin_full_full.jpg"
+  },
+  {
+    "id": 4,
+    "name": "NGC 6946: The 'Fireworks Galaxy'",
+    "image":
+      "https://www.nasa.gov/sites/default/files/archives_ngc6946.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Hubble Sees a Galaxy With a Glowing Heart",
+    "image":
+      "https://www.nasa.gov/sites/default/files/potw1427a.jpg"
+  },
+  {
+    "id": 6,
+    "name": "A Hubble View of Starburst Galaxy Messier 94",
+    "image":
+      "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_friday_102315.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Bright Galaxy Centaurus A",
+    "image":
+      "https://www.nasa.gov/sites/default/files/cena_0.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Galaxy NGC 4945",
+    "image":
+      "https://www.nasa.gov/sites/default/files/archives_ngc4945_0.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Spiral Galaxy M51",
+    "image":
+      "https://www.nasa.gov/sites/default/files/m51.jpg"
+  }
+]
