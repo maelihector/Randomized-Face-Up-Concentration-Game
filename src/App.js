@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Wrapper from "./components/Wrapper/Wrapper";
 import GalaxyCard from "./components/GalaxyCard/GalaxyCard";
+import galaxies from "./galaxies.json";
 import Footer from "./components/Footer/Footer";
 
 export default class App extends Component {
@@ -11,9 +12,14 @@ export default class App extends Component {
 
     <div className="app">
       <Header />
-      <Hero />
+      <Hero backgroundImage="https://www.nasa.gov/sites/default/files/images/613778main_hs-2011-18-a-xlarge_web_full.jpg">
+      </Hero>      
       <Wrapper>
-        <GalaxyCard />
+      {galaxies.map( galaxy => <GalaxyCard
+          key={galaxy.name}
+          name={galaxy.name}
+          image={galaxy.image}
+          /> ) }
       </Wrapper>
       <Footer />
     </div>
