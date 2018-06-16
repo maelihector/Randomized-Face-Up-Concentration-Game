@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 import './Header.css';
 
+
 export default class Header extends Component {
+  state = {
+    score: 0,
+    numtries: 0,
+    greeting: "Click an image to begin. Good Luck!",
+    correct: "",
+    incorrect: ""
+  }
   render() {
     return (
       <nav className="navbar sticky-top navbar-dark">
@@ -12,10 +20,18 @@ export default class Header extends Component {
               Memory Game 
             </div>
             <div className="col">
-              Alert
+
+              {this.state.greeting}
+              {this.state.correct}
+              {this.state.incorrect}
+
             </div>
+
             <div className="col">
-              Score
+
+              <p>Number of tries: {this.state.numtries}</p>
+              <p> Score: {this.state.score} </p>
+
             </div>
 
           </div>
